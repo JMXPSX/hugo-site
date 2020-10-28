@@ -1,1 +1,2 @@
 # aafu.public
+# hugo-site
