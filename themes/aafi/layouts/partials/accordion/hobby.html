@@ -1,0 +1,6 @@
+<ul class="pl-0">
+  {{ range.Site.Params.hobby.list }}
+  <li class="list-unstyled mb-2">{{ .hobby }}</li>
+  <i class="zoomlink mt-1 {{ .class }} {{ .icon }}"></i>
+  {{ end }}
+</ul>
